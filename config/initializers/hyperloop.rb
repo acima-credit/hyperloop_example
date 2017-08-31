@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # config/initializers/hyperloop.rb
 # If you are not using ActionCable, see http://ruby-hyperloop.io/docs/models/configuring-transport/
 Hyperloop.configuration do |config|
@@ -7,4 +9,3 @@ Hyperloop.configuration do |config|
   config.import 'client_only', client_only: true
   config.import 'opal_hot_reloader'
 end
-
