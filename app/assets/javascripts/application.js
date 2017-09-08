@@ -16,4 +16,4 @@
 //= require jquery_ujs
 //= require hyperloop-loader
 
-Opal.OpalHotReloader.$listen(25222, true)
+Opal.OpalHotReloader.$listen(25222, false, 1)
